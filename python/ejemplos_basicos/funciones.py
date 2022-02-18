@@ -1,3 +1,5 @@
+# def indica que es una funcion luego va el nombre de la función
+#  y entre parentesis va el parametro o argumento de la función
 def conversacion(mensaje):
     print('Hola,como estas')
     print(mensaje)
