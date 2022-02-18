@@ -1,3 +1,5 @@
+
+### Ejemplo 2- Escoger cambio entre varios tipos de pesos
 menu = """
 Bienvenidos al conversor de monedas
 
