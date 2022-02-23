@@ -1,16 +1,12 @@
-def potencia(base, exponente):
-    numero = base**exponente
-    return numero
-
 def run():
+    contador = 0
     base = int(input("ingrese la base a calcular: "))
-    exponente = 0
-    numero=potencia(base, exponente)
-    if numero < 1000:
-        print(str(base) + " elevado por " + str(exponente) + " = " + str(numero))
-        exponente = exponente + 1
-    else:
-        print("numero es mayor a 1000")
-
+    LIMITE = 1000 # las constantes se nombran con mayusculas
+    potencia = base**contador
+    while potencia < LIMITE:
+        print(str(base) + " elevado por " + str(contador) + " es igual a: " + str(potencia))
+        contador = contador + 1
+        potencia = base**contador
+    
 if __name__=="__main__":
     run()
